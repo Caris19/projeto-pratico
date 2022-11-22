@@ -13,5 +13,5 @@ Executando:
      ambiente\Scripts\activate
 5- Abra o VScode 
 6- instale o flask com o comando "pip install flask" pelo terminar do VSCode.
-7-E ntre na past “src”com o comando cd src
-8-Rode digitando flask run no terminal do VSCode
+7- Entre na past “src”com o comando cd src
+8- Rode digitando flask run no terminal do VSCode
