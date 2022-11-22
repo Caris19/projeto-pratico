@@ -1,0 +1,41 @@
+body{
+    background-color: #d5acf1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+img{
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 100px;
+    float: left;
+}
+.hdiv{
+    text-align: center;
+    margin-top: 15%;
+    float: right;
+    margin-right: 13%;
+}
+.menu{
+    color:#ffffff;
+    padding: 5px;
+    margin-right: 5%;
+}
+a{
+    text-decoration: none;
+    color: #7d31b0;
+}
+/*responsividade*/
+@media (max-width: 700px) {
+    .hdiv{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    img {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+}
