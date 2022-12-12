@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+<title>Home</title>
+{% block contents %}
+<body>
+    <div>
+        <img class="perfil" src="{{ url_for('static',filename='img/fotominha.jpeg') }}" alt="Imagem de perfil">
+    </div>
+    <div class="hdiv">
+        <h4>Meu nome é Isabela.</h4>
+        <spam>Seja bem vindo, por aqui terá a oportunidade de me conhecer um pouco mais.
+        </spam>
+    </div>
+</body>
+{% endblock %}
