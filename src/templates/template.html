@@ -10,13 +10,14 @@
 </head>
 <body>
     {% block nav%}
-        <nav class="menu">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/curriculo">Currículo</a></li>
-                <li><a href="/contatos">Contatos</a></li>
-            </ul>
-        </nav>
+        <div class="menu">
+            <img src="{{ url_for('static',filename='img/logo.png') }}" alt="Logo">
+            <nav>
+            <a href="/">Home</a>
+            <a href="/curriculo">Currículo</a>
+            <a href="/contatos">Contatos</a>
+            </nav>
+        </div>
     {% endblock%}
 
     <div>

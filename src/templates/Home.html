@@ -3,11 +3,12 @@
 {% block contents %}
 <body>
     <div>
-        <img src="static/img/fotominha.jpeg">
+        <img class="perfil" src="{{ url_for('static',filename='img/fotominha.jpeg') }}" alt="Imagem de perfil">
     </div>
     <div class="hdiv">
-        Meu nome é Isabela.
-        Seja bem vindo, por aqui terá a oportunidade de me conhecer um pouco mais.
+        <h4>Meu nome é Isabela.</h4>
+        <spam>Seja bem vindo, por aqui terá a oportunidade de me conhecer um pouco mais.
+        </spam>
     </div>
 </body>
 {% endblock %}
